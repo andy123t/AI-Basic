@@ -1,4 +1,4 @@
-# AI-Baisc
+# AI-Basic
 
 B 站课程：[小白也能听懂的人工智能原理](https://www.bilibili.com/cheese/play/ep6911) 代码
 
