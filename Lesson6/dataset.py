@@ -9,7 +9,5 @@ def get_beans(counts):
 		yi = 0.7*x+(0.5-np.random.rand())/50+0.5
 		if yi > 0.8 and yi < 1.4:
 			ys[i] = 1
-
-
 	return xs,ys
 
