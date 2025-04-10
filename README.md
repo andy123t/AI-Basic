@@ -8,6 +8,6 @@ B 站课程：[小白也能听懂的人工智能原理](https://www.bilibili.com
 
 **主要更改内容**：
 
-- 3D 绘图：调用 `fig.add_subplot()`，然后使用 `projection='3d'` 参数创建 3D 坐标轴，不用导入 Axes3D 类。
-- 使用 PyTorch 框架，大量修改代码，未采用 Keras 框架。
+- 3D 绘图：调用 `fig.add_subplot()`，使用 `projection='3d'` 参数创建 3D 坐标轴，不用导入 Axes3D 类。
+- 不用 Keras 框架，使用 PyTorch 框架，重写程序及其相关函数模块 `plot_utils`。
 

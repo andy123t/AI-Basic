@@ -83,7 +83,7 @@ for epoch in range(epochs):
     A2 = np.around(A2)  # 四舍五入取出 0.5 分割线左右的分类结果
     A2 = A2.reshape(-1)
     accuracy = np.mean(np.equal(A2, Y))
-    print(f"Epoch: {epoch+1}, 准确率: {accuracy}")
+    print(f"Epoch: {epoch+1}/{epochs}, Accuracy: {accuracy}")
 
 plot_utils.show_scatter_surface(X, Y, adapted_forward_propagation)
 

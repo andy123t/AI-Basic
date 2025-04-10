@@ -46,7 +46,7 @@ plot_utils.show_scatter_surface(X, Y, forward_propagation)
 alpha = 0.01
 num = 1000
 for _ in range(num):
-    print("Epoch: "+str(_+1)+" of "+str(num))
+    print(f"Epoch: {_+1}/{num}")
     for i in range(m):
         Xi = torch.from_numpy(X[i]).float()
         Yi = torch.tensor(Y[i], dtype=torch.float32)
